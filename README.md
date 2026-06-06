@@ -1,5 +1,9 @@
 # Shared Skills Library
 
+> **⚠️ Public mirror — read only.**
+> This is a sanitized reference copy. Development and Issues are tracked in the private repository.
+> Do not use this repo as a working directory for AI agents.
+
 複数の開発環境やAIエージェントで共通利用するスキル集です。Windows では `C:\data\GitHub\skills` に統一して配置し、Codex と Antigravity の両方をこのリポジトリの `agent` へジャンクション接続する運用を標準にします。
 
 ## 新しいPCでのセットアップ
