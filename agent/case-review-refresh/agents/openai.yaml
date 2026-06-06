@@ -1,0 +1,4 @@
+interface:
+  display_name: "Case Review Refresh"
+  short_description: "Regenerate and verify case review outputs"
+  default_prompt: "Use $case-review-refresh to refresh a case workspace after manual review changes and verify the regenerated Gemini-ready outputs."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Form Coordinate Tuning"
+  short_description: "Tune coordinate-based PDF form rendering"
+  default_prompt: "Use $pdf-form-coordinate-tuning to debug coordinate-driven PDF form layout and output regressions."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Digitizer Dashboard"
+  short_description: "Debug dashboard state, tasks, and editor launches"
+  default_prompt: "Inspect the pdf_digitizer dashboard flow, identify why the task or editor launch is failing, and fix the validation or wiring issue."

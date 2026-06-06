@@ -1,0 +1,4 @@
+interface:
+  display_name: "Medical PDF Preprocess"
+  short_description: "Turn clinical PDFs into reviewable text outputs."
+  default_prompt: "Use $medical-pdf-preprocess to clean a clinical PDF, recover date anchors, and generate reviewable text artifacts."

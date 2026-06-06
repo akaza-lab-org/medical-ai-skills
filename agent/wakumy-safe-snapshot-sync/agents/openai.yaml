@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wakumy Safe Snapshot Sync"
+  short_description: "Safely sync recurring snapshot CSVs into a local DB"
+  default_prompt: "Use $wakumy-safe-snapshot-sync to design or review recurring reservation or patient CSV synchronization that must respect newer-file precedence, protect manual edits, match by stable external ids, and hide cancelled reservations without deleting them."

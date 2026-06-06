@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bulk Table Detail Workbench"
+  short_description: "Design fast bulk-entry tables with detail panes"
+  default_prompt: "Use $bulk-table-detail-workbench to design or refine a bulk-entry table UI with a selected-record detail pane and safe save behavior."

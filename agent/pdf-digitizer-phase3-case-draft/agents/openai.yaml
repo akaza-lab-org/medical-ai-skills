@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Digitizer Phase 3"
+  short_description: "Preserve case draft seed order and reuse flow"
+  default_prompt: "Inspect the Phase 3 case-draft flow in pdf_digitizer, keep the seed order and reuse behavior consistent, and implement the requested change safely."

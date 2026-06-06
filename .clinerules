@@ -1,0 +1,45 @@
+# Rules for Shared Skills Library
+
+This project is a repository for shared "Skills" (instructions and scripts) that can be used across multiple AI agents: **Claude Code**, **Cline**, **Cursor**, **Roo Code**, and **Antigravity**.
+
+## Skill Discovery & Usage
+
+### For All AI Agents
+1. Skills are located in the `agent/` folder with a `SKILL.md` file in each subfolder
+2. Complete skill index is in `SKILL_INDEX.md` — refer to this first when given a task
+3. When a task matches a skill, read its `SKILL.md` for detailed instructions, examples, and context
+
+### Auto-Discovery (Recommended)
+- **Claude Code**: Available at `~/.claude-code/agents/` (auto-loaded on startup)
+- **Cline/Roo Code**: Detected via this `.clinerules` file
+- **Cursor**: Detected via `.cursorrules` file
+- **Codex**: Available at `~/.codex/skills/`
+- **Antigravity**: Available at `~/.gemini/antigravity/skills/`
+
+To enable auto-discovery on your machine, run:
+```powershell
+.\setup-shared-skills.ps1
+```
+
+## Maintaining the Skill Library
+
+You are encouraged to improve and expand this library:
+
+### Update a Skill
+- Modify the `SKILL.md` or scripts in `agent/[skill-name]/`
+- Changes are immediately available to all agents
+
+### Create a New Skill
+1. Create a new folder in `agent/` with a descriptive name (e.g., `my-new-skill`)
+2. Add `SKILL.md` following the standard structure (Purpose, Instructions, Examples)
+3. Register the skill in `SKILL_INDEX.md` under the appropriate category
+4. Optional: Add supporting scripts in a `scripts/` subfolder or references in `references/`
+
+## Design Principles
+
+- **No App-Specific Logic**: Skills must be reusable across projects
+- **Windows First**: Ensure path handling and commands are Windows-compatible
+- **Stateless**: Skills should not depend on persistent local state outside their folder
+- **Discoverable**: Clear naming and documentation in `SKILL.md` for AI agents
+
+For more details, see `PROJECT_RULES.md` and `SKILL_MANAGEMENT_GUIDE.md`.

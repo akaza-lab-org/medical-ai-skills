@@ -1,0 +1,4 @@
+interface:
+  display_name: "Schema Field Sync"
+  short_description: "Keep form, storage, OCR, and output fields aligned"
+  default_prompt: "Use $schema-field-sync to update a form app after field or schema changes across storage, UI, prompts, and output definitions."

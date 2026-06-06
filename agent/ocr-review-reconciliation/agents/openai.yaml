@@ -1,0 +1,4 @@
+interface:
+  display_name: "OCR Review Reconciliation"
+  short_description: "Reconcile OCR seeds with reviewed form data"
+  default_prompt: "Use $ocr-review-reconciliation to design or debug an OCR-to-form review flow with auditable correction tracking."

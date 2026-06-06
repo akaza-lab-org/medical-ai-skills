@@ -1,0 +1,4 @@
+interface:
+  display_name: "Form Roundtrip Verification"
+  short_description: "Verify import, edit, reload, and export flows"
+  default_prompt: "Use $form-roundtrip-verification to verify a document or form app across import, review, save, reload, and export."

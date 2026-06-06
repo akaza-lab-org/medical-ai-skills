@@ -1,0 +1,4 @@
+interface:
+  display_name: "LabtechSC Portable Edge"
+  short_description: "LabtechSC ver3端末向けにEdge/Chrome利用のフォルダ配布を標準化"
+  default_prompt: "Use this skill to prepare and validate a no-install portable distribution for LabtechSC ver3 terminals."

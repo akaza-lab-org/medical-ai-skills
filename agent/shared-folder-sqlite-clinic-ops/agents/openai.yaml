@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shared Folder SQLite Clinic Ops"
+  short_description: "Run SMB SQLite clinic apps across multiple terminals"
+  default_prompt: "Use $shared-folder-sqlite-clinic-ops to design or review a multi-terminal clinic app that stores SQLite on a shared folder with role guards, health checks, backups, conflict checks, editor locks, and rollout rehearsal."

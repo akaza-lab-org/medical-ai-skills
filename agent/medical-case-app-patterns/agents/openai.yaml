@@ -1,0 +1,4 @@
+interface:
+  display_name: "Medical Case App Patterns"
+  short_description: "Reuse proven patterns for medical review apps"
+  default_prompt: "Use $medical-case-app-patterns to design or refine a local medical review, extraction, or webform-assist app with file-backed state, PHI-safe preprocessing, structured Gemini extraction, and portable Windows-friendly workflows."

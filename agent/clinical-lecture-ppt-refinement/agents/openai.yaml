@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clinical Lecture PPT Refinement"
+  short_description: "16:9投影向けに医療講演PPTを読みやすく整える手順"
+  default_prompt: "Use $clinical-lecture-ppt-refinement to improve a medical lecture PowerPoint deck for projection."

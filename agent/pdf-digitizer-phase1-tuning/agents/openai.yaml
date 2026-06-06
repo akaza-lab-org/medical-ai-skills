@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Digitizer Phase 1"
+  short_description: "Tune analyzer coordinates and Phase 1 launch flow"
+  default_prompt: "Inspect the Phase 1 analyzer or dashboard launch flow in pdf_digitizer, identify the coordinate or routing issue, and implement the smallest safe fix."

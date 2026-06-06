@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Digitizer Phase 2"
+  short_description: "Resync Phase 2 fields and fix editor alignment"
+  default_prompt: "Inspect the Phase 2 field refresh or editor flow, identify whether the issue comes from stale fields, transforms, or preview rendering, and implement a focused fix."

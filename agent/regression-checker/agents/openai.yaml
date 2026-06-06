@@ -1,0 +1,4 @@
+interface:
+  display_name: "Regression Checker"
+  short_description: "Check preprocessing changes for output regressions."
+  default_prompt: "Use $regression-checker to compare preprocessing outputs before and after a change and identify likely regressions."

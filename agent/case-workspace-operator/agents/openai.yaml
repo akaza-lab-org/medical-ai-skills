@@ -1,0 +1,4 @@
+interface:
+  display_name: "Case Workspace Operator"
+  short_description: "Run case-based PDF preprocessing in a stable workspace layout."
+  default_prompt: "Use $case-workspace-operator to organize a case workspace, place inputs correctly, and run or review preprocessing outputs."

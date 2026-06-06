@@ -1,0 +1,4 @@
+interface:
+  display_name: "PHI Redaction Review"
+  short_description: "Review and apply safe PHI redaction rules to text outputs."
+  default_prompt: "Use $phi-redaction-review to define PHI masking rules, regenerate redacted derivatives, and review residual identifiers."

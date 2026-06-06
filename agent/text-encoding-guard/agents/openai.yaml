@@ -1,0 +1,4 @@
+interface:
+  display_name: "Text Encoding Guard"
+  short_description: "Prevent mojibake when editing files across tools and shells."
+  default_prompt: "Use $text-encoding-guard to inspect, edit, and verify text files without causing encoding corruption."

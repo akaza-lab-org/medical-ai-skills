@@ -1,0 +1,4 @@
+interface:
+  display_name: "Windows Portable Python"
+  short_description: "Windows制限端末向けの no-install Python 配布を標準化"
+  default_prompt: "Use this skill to design or implement a no-install Windows distribution using embeddable Python, a packaging PC workflow, and a run.bat-only terminal workflow."

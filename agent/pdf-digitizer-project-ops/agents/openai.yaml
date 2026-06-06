@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Digitizer Project Ops"
+  short_description: "Manage manifest-backed projects and active selection"
+  default_prompt: "Inspect the current pdf_digitizer project state, resolve the correct project by directory and manifest, and make the requested project-level change safely."

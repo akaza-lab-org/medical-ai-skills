@@ -1,0 +1,4 @@
+interface:
+  display_name: "Medical AHK EMR Bridge"
+  short_description: "Bridge medical apps to AHK-driven EMR workflows"
+  default_prompt: "Use $medical-ahk-emr-bridge to design, review, or port integration between a local medical workflow app and an existing AutoHotkey automation stack, including QR-triggered flows, resident main.ahk vs one-shot bridge scripts, safe config.ini upgrades, pending or unissued recovery, and reuse of the pattern in another medical app."

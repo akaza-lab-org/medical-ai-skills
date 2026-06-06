@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clinical PDF Overlay Forms"
+  short_description: "Implement and maintain fixed medical PDF overlays"
+  default_prompt: "Use $clinical-pdf-overlay-forms to build or revise a fixed-layout medical PDF overlay with maintainable coordinates."

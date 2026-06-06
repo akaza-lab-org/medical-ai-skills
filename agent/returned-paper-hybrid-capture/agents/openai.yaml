@@ -1,0 +1,4 @@
+interface:
+  display_name: "Returned Paper Hybrid Capture"
+  short_description: "Re-import partially handwritten returned paper forms"
+  default_prompt: "Use $returned-paper-hybrid-capture to design a safe workflow for scanning returned paper forms, extracting only target regions, and reconciling them with human review."
