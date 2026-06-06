@@ -9,7 +9,7 @@
 新しいPCでは、まずこの 3 行だけ実行すれば使い始められます。
 
 ```powershell
-git clone https://github.com/akazatmd-ctrl/skills C:\data\GitHub\skills
+git clone https://github.com/human-cto/skills C:\data\GitHub\skills
 powershell -ExecutionPolicy Bypass -File C:\data\GitHub\skills\setup-shared-skills.ps1
 powershell -ExecutionPolicy Bypass -File C:\data\GitHub\skills\automation\create_shortcut.ps1
 ```
@@ -28,7 +28,7 @@ C:\data\GitHub\skills\setup-shared-skills.bat
 ### 1. リポジトリを決まった場所へ clone
 
 ```powershell
-git clone https://github.com/akazatmd-ctrl/skills C:\data\GitHub\skills
+git clone https://github.com/human-cto/skills C:\data\GitHub\skills
 ```
 
 `C:\data` がなければ先に作成してください。
